@@ -1,0 +1,25 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 260px;
+  margin: 0 20px 50px 20px;
+
+  > img {
+    max-width: 230px;
+  }
+
+  > strong {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+
+  > p {
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: #575653;
+  }
+}

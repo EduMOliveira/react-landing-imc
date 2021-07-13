@@ -1,0 +1,63 @@
+.header {
+  max-width: 1230px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  > a {
+    img {
+      width: 100px;
+    }
+  }
+
+  .header_menu {
+    display: flex;
+    flex-direction: row;
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+
+    @media screen and (max-width: 600px) {
+      &.responsive {
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        top: 30px;
+        width: 100%;
+        background-color: rgb(0, 0, 0);
+        border-radius: 0 0 20px 20px;
+        color: #fff;
+
+        > p {
+          display: block;
+          margin: 20px;
+        }
+      }
+    }
+
+    > p {
+      margin-left: 24px;
+      cursor: pointer;
+
+      @media screen and (max-width: 600px) {
+        display: none;
+      }
+
+      &:hover {
+        color: rgb(187, 184, 184);
+      }
+    }
+  }
+
+  .icon {
+    display: none;
+    z-index: 5;
+
+    @media screen and (max-width: 600px) {
+      float: right;
+      display: block;
+    }
+  }
+}
