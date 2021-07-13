@@ -25,6 +25,8 @@
 A Landing Page IMCzin foi desenvolvida utilizado o framework [ReactJS](https://reactjs.org/) com a linguagem [Typescript](https://www.typescriptlang.org/) e tem como objetivo principal apresentar aos usuários o aplicativo de calculo de índice de massa corpórea (IMCzin) através de uma página web. 
 
 ## Live Demo
+[![Netlify Status](https://api.netlify.com/api/v1/badges/7e5b12b1-d4d2-4b0c-9e9b-133a4a5cf29a/deploy-status)](https://app.netlify.com/sites/react-landing-imc/deploys)
+
 Versão de demonstração via Netlify: [Landing Page - IMCzin](https://react-landing-imc.netlify.app/)
 
 
